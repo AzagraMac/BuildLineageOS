@@ -1,7 +1,7 @@
 #!/bin/sh
 
-ROM_VERSION="cm-13.0"
-MODEL_DEVICE="manta"
+ROM_VERSION="CHANGE"
+MODEL_DEVICE="CHANGE"
 
 ## OnePlus 6
 # rom: lineage-16.0
@@ -30,10 +30,10 @@ if [ -d "$ANDROID_TOOLS/platform-tools" ] ; then
     PATH="$ANDROID_TOOLS/platform-tools:$PATH"
 fi
 
-#sudo apt update
-#sudo apt upgrade -y
-#sudo apt install -y java-1.8.0-openjdk-devel unzip vim python bc bison build-essential ccache curl flex g++-multilib gcc-multilib git git-core gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
-#sudo apt clean all
+sudo apt update
+sudo apt upgrade -y
+sudo apt install -y java-1.8.0-openjdk-devel unzip vim python bc bison build-essential ccache curl flex g++-multilib gcc-multilib git git-core gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
+sudo apt clean all
 
 echo "Donwload script from Google: "
 curl https://storage.googleapis.com/git-repo-downloads/repo > $GOOGLE_API/repo
