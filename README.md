@@ -1,7 +1,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/azagramac/BuildLineageOS.svg) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/azagramac/BuildLineageOS/master.svg)
 
 <p align="center">
-        <img src="images/lineageos.png" alt="PNG" height="720px" />
+        <img src="images/lineageos.png" alt="PNG" height="256px" />
 </p>
 
 
@@ -50,6 +50,6 @@ brunch manta
 
 ## Download the source code
 ```sh
-chmmod a+x build.sh
+chmmod a+x build.sh && ./build.sh
 ```
 
