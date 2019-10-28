@@ -1,15 +1,16 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/azagramac/BuildLineageOS.svg) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/azagramac/BuildLineageOS/master.svg)
 
 <p align="center">
-        <img src="images/lineageos.png" alt="PNG" height="480px" />
+        <img src="images/lineageos.png" alt="PNG" height="720px" />
 </p>
 
 
 ## Device OnePlus 6 ("enchilada")
 <img src="images/oneplus6.png" alt="PNG" height="256px" />
+
 ```
 source build/envsetup.sh
-breakfast enchilada
+breakfast manta
 ```
 
 Now ensure your 6 is connected to your computer via the USB cable, with ADB and root enabled, and that you are in the ~/android/lineage/device/oneplus/enchilada folder. Then run the extract-files.sh script:
@@ -32,7 +33,7 @@ source build/envsetup.sh
 breakfast manta
 ```
 
-Now ensure your 6 is connected to your computer via the USB cable, with ADB and root enabled, and that you are in the ~/android/lineage/device/oneplus/enchilada folder. Then run the extract-files.sh script:
+Now ensure your Nexus 10 is connected to your computer via the USB cable, with ADB and root enabled, and that you are in the ~/android/lineage/device/samsung/manta folder. Then run the extract-files.sh script:
 ```
 ./extract-files.sh
 ```
