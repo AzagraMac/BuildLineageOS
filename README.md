@@ -1,55 +1,20 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/azagramac/BuildLineageOS.svg) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/azagramac/BuildLineageOS/master.svg)
 
 <p align="center">
-        <img src="images/lineageos.png" alt="PNG" height="256px" />
+        <img src="https://github.com/AzagraMac/BuildLineageOS/assets/571796/06ad7818-ed47-4e89-921a-e790096760b4" alt="PNG" height="256px" />
 </p>
 
+### Device OnePlus 6 ("enchilada")
+<img src="https://github.com/AzagraMac/BuildLineageOS/assets/571796/3670790f-644a-4540-8160-e7d965d3e166" alt="PNG" height="256px" />
 
-## Device OnePlus 6 ("enchilada")
-<img src="images/oneplus6.png" alt="PNG" height="256px" />
+### Device OnePlus 8T ("kebab")
+<img src="https://github.com/AzagraMac/BuildLineageOS/assets/571796/5bb20749-4846-4203-ad1e-22d3d7b6cd0b" alt="PNG" height="256px" />
 
-```
-source build/envsetup.sh
-breakfast manta
-```
 
-Now ensure your 6 is connected to your computer via the USB cable, with ADB and root enabled, and that you are in the ~/android/lineage/device/oneplus/enchilada folder. Then run the extract-files.sh script:
-```
-./extract-files.sh
-```
+#### Ubuntu 18.04 LTS 64 bit
+- 200Gb free disk
 
-Start the build
-Time to start building! Now, type:
-```
-croot
-brunch enchilada
-```
-
-## Device Google Nexus 10 ("manta")
-<img src="images/nexus10.png" alt="PNG" height="256px" />
-
-```
-source build/envsetup.sh
-breakfast manta
-```
-
-Now ensure your Nexus 10 is connected to your computer via the USB cable, with ADB and root enabled, and that you are in the ~/android/lineage/device/samsung/manta folder. Then run the extract-files.sh script:
-```
-./extract-files.sh
-```
-
-Start the build
-Time to start building! Now, type:
-```
-croot
-brunch manta
-```
-
-## Ubuntu 16.04 LTS 64 bit
-- 100Gb free disk
-
-## Download the source code
+#### Download the source code
 ```sh
 chmmod a+x build.sh && ./build.sh
 ```
-
